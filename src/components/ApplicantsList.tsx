@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { Applicant } from '../interfaces/types';
 import { theme } from '../styles/theme';
+import { ApplicantsListProps } from '../interfaces/types';
 
 export default function ApplicantsList({ data, updateApplicantData }: ApplicantsListProps) {
   const [arrayOfFilteredData, setArrayOfFilteredData] = useState<Applicant[][]>([]);
