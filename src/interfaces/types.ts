@@ -56,5 +56,3 @@ export type ApplicantQuery = 'all:Applicant' & 'search:Applicant';
 //   all:Applicant | undefined
 //   search:Applicant | undefined,
 // }
-
-export type ApplicantsListProps = { data: Applicant; updateApplicantData: (id: number, isAccepted: boolean) => void };
